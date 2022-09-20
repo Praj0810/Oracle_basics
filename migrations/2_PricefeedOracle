@@ -1,0 +1,5 @@
+const PriceFeedOracle = artifacts.require("PriceFeedOracle");
+
+module.exports = function (deployer) {
+  deployer.deploy(PriceFeedOracle);
+};
